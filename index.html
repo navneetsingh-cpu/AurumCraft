@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AurumCraft Jewelers - Timeless Craftsmanship</title>
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f4e3;
+      color: #333;
+    }
+
+    header {
+      background: #b28b67;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x900/?gold,jewelry') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: #b28b67;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .about,
+    .services,
+    .testimonials,
+    .contact {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .service-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background: #b28b67;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">AurumCraft Jewelers</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Handcrafted Elegance, Timeless Beauty</h1>
+      <p>Bespoke jewelry crafted with passion and precision.</p>
+      <a href="#contact" class="cta-button">Book a Consultation</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At AurumCraft Jewelers, we blend traditional craftsmanship with modern artistry to create unique, timeless
+      jewelry pieces that tell a story.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Custom Jewelry</h3>
+        <p>Design your dream piece with our expert goldsmiths.</p>
+      </div>
+      <div class="card">
+        <h3>Repairs & Resizing</h3>
+        <p>Restore and adjust your jewelry to perfection.</p>
+      </div>
+      <div class="card">
+        <h3>Engraving</h3>
+        <p>Personalize your jewelry with special messages.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <p>“AurumCraft crafted my engagement ring, and it's absolutely stunning! The quality and detail are unmatched.” –
+      Sarah L.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 125 Goldsmith Lane, Toronto, ON M4B 1X2</p>
+    <p>📞 +1 (416) 555-7890</p>
+    <p>📧 contact@aurumcraftjewelers.com</p>
+    <a href="#contact" class="cta-button">Schedule an Appointment</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AurumCraft Jewelers. All rights reserved.</p>
+  </footer>
+</body>
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+  import {createChat} from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+  createChat({
+    webhookUrl: 'https://gptailor.app.n8n.cloud/webhook/854c829c-2ce6-426f-89e2-ed44d33182f3/chat'
+  });
+</script>
+
+</html>
